@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://kit.fontawesome.com/dd8950c7e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo3.jpg" class="logo">
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul> 
+                 <i class="fa-solid fa-bars"onclick="openmenu()"></i>           
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Shrutika </span><br>Ekbote from India</h1>
+            </div>
+        </div>
+
+
+    </div>
+<!------------------------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="u1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello!  and I'm a third-year computer engineering student with a passion for web development. I have experience working with HTML, CSS, and JavaScript, and I've used these languages to create a variety of projects.
+
+                    When I'm not coding, you can usually find me drawing paintings or diving into a good book. I find that these hobbies help me stay creative and keep my mind sharp.
+                        
+                    In my coding work, I follow the principle of "show, don't tell." I believe that the best way to communicate my ideas is by writing clean, efficient code that speaks for itself. I strive to create websites and applications that are both beautiful and functional, and I'm always looking for ways to improve my skills.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML </span></li>
+                        <li><span>CSS </span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>C Programming Language</span></li>
+                        <li><span>C++ Programming Language</span></li>
+                        <li><span>Python</span></li>
+                        <li><span>Responsive Web Design</span></li>
+                        <li><span>Front-End Development</span></li>
+                        <li><span>Creative Problem Solving</span></li>
+
+                          
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-2024 </span><br>Internship at OasisInfobyte</li>
+                        <li><span>2023-2024 </span><br>Internship at Internpe</li>
+                        
+
+                          
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018 </span><br>10th from SMV SCHOOL</li>
+                        <li><span>2020 </span><br>12th from NMV HIGH SCHOOL</li>
+                        <li><span>2023-CURRENT</span><br>3RD YEAR COMPUTER SCIENCE STUDENT AT <br>
+                        ANANTRAO PAWAR COLLEGE OF ENGINEERING AND RESEARCH,PUNE</li>
+                        <li><span>CGPA</span><br>9.00</li>
+                        
+
+                          
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---SERVICES SECTION -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Custom Web Design</h2>
+                    <p>My web design services encompass a wide range of features and functionalities, including strategic planning, captivating visual design, responsive development, functionality integration, and search engine optimization. Partner with me to create a compelling online presence that engages your audience and drives business growth.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Responsive Web Design</h2>
+                    <p>In today's mobile-driven world, having a responsive website is crucial. so,me as a web developer ensure that your site is fully optimized for all devices, ensuring a seamless user experience across desktops, tablets, and smartphones. By implementing responsive design techniques, I make sure that your website looks great and functions flawlessly on any screen size.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-dumpster"></i>
+                    <h2>E-commerce Development</h2>
+                    <p>If you're looking to sell products or services online, so,me as a  web developer can create a robust and secure e-commerce website for your business. I leverage industry-leading e-commerce platforms like Magento, WooCommerce, or Shopify to develop a user-friendly online store that maximizes conversions and drives revenue.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!---portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Introducing my innovative music app, a revolutionary platform that will transform your music listening experience.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping  App</h3>
+                        <p>Introducing our state-of-the-art online shopping app, revolutionizing the way you shop for all your needs. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!--- contact-->
+
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>ekboteshrutika2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9359041776</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/ShrutikaEkbote"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://instagram.com/shrutikaekbote?igshid=Y2M0YTlkZGNmOQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shrutika-ekbote-6a2329204-1st"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @ Shrutika .Made with <i class="fa-solid fa-heart"></i> </p>
+
+           
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+         
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+
+    <script>
+       var sidemenu=document.getElementById("sidemenu");
+
+       function openmenu(){
+            sidemenu.style.right="0"
+       }
+
+       function closemenu(){
+            sidemenu.style.right="-200px";
+       }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxiQV_1KwaHIUIgolgSa0Q094aNg-Kax8u4_Eh2TlHO2_eWSJYUbwRP2Ta627soJxJS/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

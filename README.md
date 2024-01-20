@@ -1,6 +1,5 @@
 # Personal-Portfolio
-website link:https://65322172523099686d726243--shrutikaekboteportfolio.netlify.app/#
-
+website link:https://shrutikaekboteportfolio.netlify.app/
 https://github.com/ShrutikaEkbote/Personal-Portfolio/assets/130368572/8bc8979a-f14c-4581-8d31-8163d80de386
 
 
